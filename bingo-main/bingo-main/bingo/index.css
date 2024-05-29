@@ -1,0 +1,43 @@
+*{
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, head{
+    background-color: rgb(122, 113, 113);
+}
+
+section{
+    color: slategray;
+}
+
+h1, h2, title{
+    color: white;
+}
+
+table, th, td {
+    border: 10px;
+    border-color:black ;
+    border-collapse: collapse;
+    color: black;
+}
+th, td{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+h1:first-child {
+    text-align: center;
+    font-size: 40px;
+
+}
+
+button{
+    border: 5px;
+    border-color: red;
+}
+
+
